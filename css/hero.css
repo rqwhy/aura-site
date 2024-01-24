@@ -1,0 +1,107 @@
+:root{
+    --dark-color:#06060b;
+    --white-color: #fff;
+    --aquamarin-color: #46f4db;
+}
+
+.hero{
+    background-color: #07060b;
+
+    background-image: url(../img/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.hero__container{
+    padding: 150px 0;
+}
+
+.hero__title{
+    color: var(--white-color);
+
+    font-size: 70px;
+    font-style: normal;
+    line-height: normal;
+
+    font-family: 'Russo One';
+
+    max-width: 621px;
+}
+
+.hero__buttons{
+    display: flex;
+    gap: 32px;
+
+    margin-top: 36px;
+}
+
+.hero-buttons__pay{
+    border-radius: 40px;
+    background: var(--button_cta, linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%));
+    color: #07060b;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 25px 54px;
+
+    border: 0;
+    cursor: pointer;
+}
+
+.hero-buttons__pay:focus-visible{
+    outline: 2px solid var(--aquamarin-color);
+}
+
+.hero-buttons__pay:focus{
+    background: #57d272;
+    border-color: #57d272;
+}   
+
+.hero-buttons__pay:hover{
+    background: var(--aquamarin-color);
+    border-color: var(--aquamarin-color);
+}
+
+.hero-buttons__pay:active{
+    transition: transform .2s ease-in-out;
+    background: #57d272;
+    border-color: #57d272;
+}
+
+.hero-buttons__aftor{
+    border-radius: 40px;
+
+    border: 5px solid #46F4DB;
+    color: var(--white-color);
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background-color: #07060b;
+
+    padding: 25px 54px;
+    
+    cursor: pointer;
+}
+
+.hero-buttons__aftor:focus-visible{
+    outline: 2px solid var(--aquamarin-color);
+}
+
+.hero-buttons__aftor:focus{
+    background: #57d272;
+}   
+
+.hero-buttons__aftor:hover{
+    background: var(--aquamarin-color);
+}
+
+.hero-buttons__aftor:active{
+    transition: transform .2s ease-in-out;
+    background: #57d272;
+}

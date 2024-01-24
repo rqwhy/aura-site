@@ -1,0 +1,160 @@
+:root{
+    --dark-color:#06060b;
+    --white-color: #fff;
+    --black-color: #07060b;
+    --aquamarin-color: #46f4db;
+}
+
+.register{
+    background-color: #d13130;
+}
+
+.register__container{
+    padding: 22px 0;
+
+    background-image: url(../img/slider-adapt-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.register__text{
+    color: var(--white-color);
+
+    font-family: Russo One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.register__content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+    margin-top: 32px;
+
+    max-width: 460px;
+}
+
+.register__input{
+    padding: 20px 10px 20px 32px;
+
+    border-radius: 40px;
+    background: var(--black-color);
+    color:  #ededf2;
+
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: 0;
+}
+
+.register__input:focus-visible{
+    outline: 2px solid var(--black-color);
+    outline-offset: -2px;
+    background-color: transparent;
+    color: var(--black-color);
+}
+
+.register__input:active{
+    outline: 2px solid var(--black-color);
+    outline-offset: -2px;
+    background-color: transparent;
+    color: var(--black-color);
+}
+
+.register__input:invalid {
+    border: 2px solid red;
+  }
+  
+.register__input:invalid + .validity-icon::before {
+    content: 'Некоректный формат';
+    color: red;
+  }
+
+.register__btn{
+    max-width: 296px;
+    padding: 25px 54px;
+
+    border-radius: 40px;
+
+    background: var(--primary, #46f4db);
+    color: var(--black-color);
+
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+    border: 0;
+    cursor: pointer;
+}
+
+.register__btn:focus-visible{
+    outline: 2px solid var(--aquamarin-color);
+}
+
+.register__btn:focus{
+    background: var(--aquamarin-color);
+}   
+
+.register__btn:hover{
+    background: var(--aquamarin-color);
+}
+
+.register__btn:active{
+    transition: transform .2s ease-in-out;
+    background: #57d272;
+    border-color: #57d272;
+}
+
+.mailingtext{
+    color: var(--white-color);
+
+    font-family: Muller;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.mailingcheckbox {
+    z-index: -1;
+    opacity: 0;
+  
+    display: block;
+}
+  
+.mailingcheckbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+
+    cursor: pointer;
+}
+
+.mailingcheckbox+label::before {
+    content: '';
+    display: flex;
+    width: 14px;
+    height: 14px;
+
+    margin-right: 8px;
+    border: 1px solid var(--white-color);
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.mailingcheckbox:checked+label::before {
+    background-image: url(../img/check-register.svg);
+    background-size: 10px;
+}
+
+.mailingcheckbox:disabled+label::before {
+    background-color: #e9ecef;
+}

@@ -1,0 +1,85 @@
+:root{
+    --dark-color:#06060b;
+    --white-color: #fff;
+    --black-color: #07060b;
+    --aquamarin-color: #46f4db;
+}
+
+.new{
+    background-color: var(--black-color);
+}
+
+.new__container{
+    margin-top: 90px;
+    padding: 90px 0 190px;
+}
+
+.new__title{
+    color: var(--white-color);
+
+    font-family: Russo One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-left: 64px;
+
+    background-image: url(../img/flame.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+
+    margin-bottom: 32px;
+}
+
+.new__slide{
+    cursor: pointer;
+}
+
+.slider__image{
+    width: inherit;
+}
+
+.new__pagination{
+    position: relative;
+    top: 90px;
+}
+
+.new__pagination .swiper-pagination-bullet{
+    width: 56px;
+    height: 36px;
+
+    border-radius: 40px;
+    border: 2px solid #d13130;
+
+    opacity: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    transition: transform .5s ease-in-out, color .5s ease-in-out, background-color .5s ease-in-out;
+
+    cursor: pointer;
+}
+
+.new__pagination .swiper-pagination-bullet-visible{
+    outline: 2px solid var(--aquamarin-color);
+}
+
+.new__pagination .swiper-pagination-bullet:focus{
+    background: #ff6f6f;
+    border-color: #ff6f6f;
+}   
+
+.new__pagination .swiper-pagination-bullet:hover{
+    background: #ff6f6f;
+    border-color: #ff6f6f;
+}
+
+.new__pagination .swiper-pagination-bullet-active {
+    background-color: #d13130;
+} 

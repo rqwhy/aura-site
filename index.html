@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/auction.css">
+    <link rel="stylesheet" href="css/otherauctions.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/aftor.css">
+    <link rel="stylesheet" href="css/topsales.css">
+    <link rel="stylesheet" href="css/conditions.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Aura</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__info">
+                <div class="header__adaptive-block">
+                    <a href="#" class="header__logo">
+                        <img class="header-logo__image" src="img/logo.svg" alt="aura logo">
+                    </a>
+                    <a class="header__btn-wallet" href="#">
+                        <img class="header__wallet-img" src="img/account_balance_wallet.svg" alt="wallet img">
+                    </a>
+                </div>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__text" href="#">Авторы</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__text" href="#">Коллекции</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__text" href="#">Сервисы</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="header__button">Кошелёк</button>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__container container">
+            <h1 class="hero__title">Площадка для реализации криптостикеров</h1>
+            <div class="hero__buttons">
+                <button class="hero-buttons__pay">Купить</button>
+                <button class="hero-buttons__aftor">Стать автором</button>
+            </div>
+        </div>
+    </section>
+    <section class="auction">
+        <div class="auction__container container">
+            <div class="auction__block">
+                <div class="auction__top">
+                    <h2 class="auction__title">Аукцион</h2>
+                    <span class="auction__live-text">Live auction</span>
+                </div>
+                <img class="auction__image" src="img/auction-sticker.png" alt="auction sticker">
+            </div>
+            <div class="auction__block">
+                <div class="auction__user-card">
+                    <img class="auction-user-card__afatar" src="img/auction-username-afatar.svg" alt="">
+                    <span class="auction-user-card__username">Serge_VM222</span>
+                </div>
+                <p class="auction__descr">Witcherrr_3 (xml_t5)</p>  
+                <div class="auction__cards">
+                    <div class="auction__card">
+                        <span class="auction-card__descr">Ставка:</span>
+                        <span class="auction-card__price">0.10&nbsp;ETH</span>
+                        <span class="auction-card__dollar-price">$351.24</span>
+                    </div>
+                    <div class="auction__card-timer">
+                        <span class="auction-card-timer__descr">Окончание через:</span>
+                        <div class="auction__timer">
+                            <div class="auction__time">
+                                <p class="auction__time-digits auction__time-digits--numb">01</p>
+                                <p class="auction__time-digits">Час</p>
+                            </div>
+                            <div class="auction__time">
+                                <p class="auction__time-digits auction__time-digits--numb">48</p>
+                                <p class="auction__time-digits">Мин</p>
+                            </div>
+                            <div class="auction__time">
+                                <p class="auction__time-digits auction__time-digits--numb">47</p>
+                                <p class="auction__time-digits">Сек</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="auction__btn">Cделать ставку</button>           
+            </div>
+        </div>
+    </section>
+    <section class="otherauctions">
+        <div class="otherauctions__container container">
+            <h2 class="otherauctions__title">Другие аукционы</h2>
+            <div class="otherauctions__cards">
+                <div class="otherauctions-card">
+                    <img src="img/Alien.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                                <img src="img/frank-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                                <h4 class="otherauctions-card__nickname">Frank.Nagval</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Alien (green) e_e</p>
+                        <p class="otherauctions-card__price">0.02 ETH</p>
+                        <p class="otherauctions-card__timer">03&nbsp;часа 25&nbsp;мин 23&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/cobra_007.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/chp-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">CPH_777</h4>
+                        </div>
+                        <p class="otherauctions-card__name">CoBRRRa</p>
+                        <p class="otherauctions-card__price">0.5 ETH</p>
+                        <p class="otherauctions-card__timer">15&nbsp;мин 03&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/Diamonds.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/supah-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">sUpah_kiLLah</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Diamonds (4)</p>
+                        <p class="otherauctions-card__price">0.008&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">23&nbsp;часа 05&nbsp;мин 08&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/Holofobia-2.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/ttgs-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">ttgs</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Holofobia-2</p>
+                        <p class="otherauctions-card__price">1.0 ETH</p>
+                        <p class="otherauctions-card__timer">01&nbsp;час 15&nbsp;мин 55&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/Baby Yoda 1.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/pup-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">Peppppe22</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Baby Yoda&nbsp;1</p>
+                        <p class="otherauctions-card__price">0.2&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">01&nbsp;час 28&nbsp;мин 11&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/alien vs predator-1.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/1300-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">1300e1440</h4>
+                        </div>
+                        <p class="otherauctions-card__name">alien&nbsp;vs. predator (01)</p>
+                        <p class="otherauctions-card__price">0.09&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">08&nbsp;часов 44&nbsp;мин 43&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/IAMDECEPTICON.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/robert-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">Robert_Wward</h4>
+                        </div>
+                        <p class="otherauctions-card__name">IAMDECEPTICON</p>
+                        <p class="otherauctions-card__price">0.1&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">55&nbsp;мин 18&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/Ghostbusters-1 1.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/ttgs2-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">ttgs</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Ghostbusterrrrrrrs</p>
+                        <p class="otherauctions-card__price">0.09&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">18&nbsp;мин 12&nbsp;сек</p>
+                    </div>
+                </div>
+            </div>
+            <div class="otherauctions__cards otherauctions__cards--tablet">
+                <div class="otherauctions-card">
+                    <img src="img/Alien.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                                <img src="img/frank-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                                <h4 class="otherauctions-card__nickname">Frank.Nagval</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Alien (green) e_e</p>
+                        <p class="otherauctions-card__price">0.02 ETH</p>
+                        <p class="otherauctions-card__timer">03&nbsp;часа 25&nbsp;мин 23&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/cobra_007.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/chp-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">CPH_777</h4>
+                        </div>
+                        <p class="otherauctions-card__name">CoBRRRa</p>
+                        <p class="otherauctions-card__price">0.5 ETH</p>
+                        <p class="otherauctions-card__timer">15&nbsp;мин 03&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/Holofobia-2.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/ttgs-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">ttgs</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Holofobia-2</p>
+                        <p class="otherauctions-card__price">1.0 ETH</p>
+                        <p class="otherauctions-card__timer">01&nbsp;час 15&nbsp;мин 55&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/Baby Yoda 1.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/pup-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">Peppppe22</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Baby Yoda&nbsp;1</p>
+                        <p class="otherauctions-card__price">0.2&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">01&nbsp;час 28&nbsp;мин 11&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/IAMDECEPTICON.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/robert-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">Robert_Wward</h4>
+                        </div>
+                        <p class="otherauctions-card__name">IAMDECEPTICON</p>
+                        <p class="otherauctions-card__price">0.1&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">55&nbsp;мин 18&nbsp;сек</p>
+                    </div>
+                </div>
+                <div class="otherauctions-card">
+                    <img src="img/Ghostbusters-1 1.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
+                    <div class="otherauctions-card__content">
+                        <div class="otherauctions-card__top">
+                            <img src="img/ttgs2-afa.svg" alt="user afatar" class="otherauctions-card__afatar">
+                            <h4 class="otherauctions-card__nickname">ttgs</h4>
+                        </div>
+                        <p class="otherauctions-card__name">Ghostbusterrrrrrrs</p>
+                        <p class="otherauctions-card__price">0.09&nbsp;ETH</p>
+                        <p class="otherauctions-card__timer">18&nbsp;мин 12&nbsp;сек</p>
+                    </div>
+                </div>
+            </div>
+            <button class="otherauctions__btn">Все аукционы</button>
+        </div>
+    </section>
+    <section class="new">
+        <div class="new__container container">
+            <h2 class="new__title">Новые стикеры</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper new__slider">
+                  <div class="swiper-slide new__slide">
+                    <img class="slider__image" src="img/slider-1.png" alt="sticker img">
+                  </div>
+                  <div class="swiper-slide new__slide">
+                    <img class="slider__image" src="img/slider-2.png" alt="sticker img">
+                  </div>
+                  <div class="swiper-slide new__slide">
+                    <img class="slider__image" src="img/slider-3.png" alt="sticker img">
+                  </div>
+                  <div class="swiper-slide new__slide">
+                    <img class="slider__image" src="img/slider-4.png" alt="sticker img">
+                  </div>
+                </div>
+            </div>
+            <div class="new__pagination">
+                    <div class="swiper-pagination">  </div>
+            </div>
+        </div>
+    </section>
+    <section class="register">
+        <div class="register__container container">
+          <p class="register__text">Будь в&nbsp;курсе новинок! Подпишись на&nbsp;рассылку!</p>
+            <form class="register__content">
+                <input class="register__input" type="text" placeholder="Имя">
+                <input class="register__input" type="email" placeholder="E-mail">
+                <button class="register__btn">Подписаться</button>
+                <!-- <span class="regiser__descr">Согласен на&nbsp;обработку персональных данных</span> -->
+                <input class="mailingcheckbox"type="checkbox"  id="happy" name="happy" value="yes">
+                <label class="mailingtext" for="happy">Согласен на&nbsp;обработку персональных данных</label>
+            </form>
+        </div>
+    </section>
+    <section class="aftor">
+        <div class="aftor__container container">
+            <div class="aftor__content aftor__content--with-bg">
+                <h2 class="aftor__title">Стать автором</h2>
+                <span class="aftor__quote">Если ты&nbsp;художник или стремишься им&nbsp;стать&nbsp;&mdash; добро пожаловать к&nbsp;нам!</span>
+                <div class="aftor__text-block">
+                    <p class="aftor-descr">Отправь нам от&nbsp;трёх до&nbsp;пяти своих работ и&nbsp;напиши свой ник в&nbsp;телеграме. Если наши кураторы решат, что нам по&nbsp;пути, то&nbsp;мы&nbsp;обязательно свяжемся с&nbsp;тобой и&nbsp;обговорим условия сотрудничества!<span class="aftor-descr__wish">Удачи!</span> </p>
+                </div>
+            </div>
+            <form class="authorform">
+                <div class="inputwrapper">
+        
+                  <input name="file" type="file" id="inputfile" class="input inputfile" multiple>
+                  <label for="inputfile" class="inputfile-button">
+                     <span class="inputfile-icon-wrapper"><img class="inputfile-icon" src="img/aftor-input.svg" alt="Выбрать файл" width="100" height="100"></span>
+                     <span class="inputfile-button-text">Прикрепить работы (.jpeg&nbsp;/ .png)</span>
+                  </label>
+               </div>
+        
+                <input class="aftor__input" type="text" name="name" id="name" placeholder="@telegram_nickname" required>
+                <button class="aftor__btn">Отправить</button>
+              </form>
+        </div>
+    </section>
+    <section class="topsales">
+        <div class="topsales__container container">
+            <h2 class="topsales__title">Топ продаж</h2>
+            <div class="topsales__cards">
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-1.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsaler-userafa-1.png" alt="afatar by user">
+                            <span class="topsales-card__user-name">ttgs</span>
+                        </div>
+                        <span class="topsales-card__name">Holofobia1</span>
+                        <span class="topsales-card__price">4.70&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($16,873.47)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-card-image-2.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-2.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Tat_2</span>
+                        </div>
+                        <span class="topsales-card__name">Y.EEE</span>
+                        <span class="topsales-card__price">2.00&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($7,121.04)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-card-image-3.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-3.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Chris22</span>
+                        </div>
+                        <span class="topsales-card__name">Baby Joda</span>
+                        <span class="topsales-card__price">3.00&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($10,731.24)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-card-image-4.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-4.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Oswaald</span>
+                        </div>
+                        <span class="topsales-card__name">Infinity_09</span>
+                        <span class="topsales-card__price">1.6109&nbsp;ETH  <span class="topsales-card__price topsales-card__price--converted">($5,762.32)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-card-image-5.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-5.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Paul-22</span>
+                        </div>
+                        <span class="topsales-card__name">Sadsadsad</span>
+                        <span class="topsales-card__price">1.50&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($5,365.62)</span></span>
+                    </div>
+                 </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-card-image-6.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-6.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">wardxxx</span>
+                        </div>
+                        <span class="topsales-card__name">Attntn</span>
+                        <span class="topsales-card__price">1.0&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($3,577.08)</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="conditions">
+        <div class="conditions__container container">
+            <h3 class="conditions__title">Для попадания в&nbsp;топ необходимо:</h3>
+            <p class="conditions__text conditions__text--quantity">Минимум пять опубликованных работ</p>
+            <p class="conditions__text conditions__text--invite">Инвайт трём коллегам по цеху</p>
+            <p class="conditions__text conditions__text--verivication">Верифицированный аккаунт</p>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img class="footer__logo-image" src="img/footer__logo.svg" alt="aura logo">
+                </a>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Соглашение</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">Лицензия</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>         
+        </div>
+        <span class="footer__descr">AURA<sup class="reg">&reg;</sup>&nbsp;| 2024</span> 
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+  </script>
+</body>
+</html>

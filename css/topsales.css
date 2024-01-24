@@ -1,0 +1,87 @@
+:root{
+    --dark-color:#06060b;
+    --white-color: #fff;
+    --black-color: #07060b;
+    --aquamarin-color: #46f4db;
+}
+
+.topsales{
+    background-color: var(--black-color);
+}
+
+.topsales__container{
+    padding: 90px 0;
+}
+
+.topsales__title{
+    color: var(--white-color);
+
+    font-family: Russo One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 32px;
+}
+
+.topsales__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.topsales-card{
+    display: flex;
+    border-radius: 40px;
+    background: var(--white-color);
+    
+    width: 550px;
+}
+
+.topsaler-card__content{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    
+    padding: 32px 0 32px 17px;
+}
+
+.topsales-card__top{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.topsales-card__user-name{
+    color: var(--black-color);
+
+    font-family: Muller;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.topsales-card__name{
+    color: var(--black-color);
+
+    font-family: Muller;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.topsales-card__price{
+    color: var(--black-color);
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.topsales-card__price--converted{
+    color:#95959d;
+}

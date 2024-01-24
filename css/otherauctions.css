@@ -1,0 +1,149 @@
+:root{
+    --dark-color:#06060b;
+    --white-color: #fff;
+    --black-color: #07060b;
+    --aquamarin-color: #46f4db;
+}
+
+.otherauctions__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.otherauctions__title{
+    color: var(--black-color);
+
+    font-family: 'Russo One';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-bottom: 32px;
+}
+
+.otherauctions__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    row-gap: 32px;
+
+    margin-bottom: 32px;
+}
+
+.otherauctions-card{
+    border-radius: 40px;
+    background-color: #ededf2;
+    width: 296px;
+
+    display: flex;
+    flex-direction: column;
+
+    cursor: pointer;
+}
+
+.otherauctions-card__image{
+    align-self: center;
+
+    margin: 7px 0;
+}
+
+.otherauctions__card--fixsize{
+    padding: 7px 55px 32px 16px; 
+}
+
+.otherauctions-card__content{
+    background-color: var(--black-color);
+    padding: 16px 0 32px 16px;
+
+    border-radius: 0 0 40px 40px;
+}
+
+.otherauctions-card__top{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.otherauctions-card__nickname{
+    color: var(--white-color);
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.otherauctions-card__name{
+    color: var(--white-color);
+
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-bottom: 12px;
+}
+
+.otherauctions-card__price{
+    color: #46f4db;
+
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.otherauctions-card__timer{
+    color: #95959d;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.otherauctions__btn{
+    padding: 25px 54px;
+
+    border-radius: 40px;
+    border: 5px solid var(--primary, #46F4DB);
+    
+    color: var(--black-color);
+
+    font-family: Muller;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    max-width: 296px;
+    max-height: 70px;
+
+    align-self: center;
+
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+}
+
+.otherauctions__btn:focus-visible{
+    outline: 2px solid var(--aquamarin-color);
+}
+
+.otherauctions__btn:focus{
+    background: var(--aquamarin-color);
+}   
+
+.otherauctions__btn:hover{
+    background: var(--aquamarin-color);
+}
+
+.otherauctions__btn:active{
+    transition: transform .2s ease-in-out;
+    background: #57d272;
+    border-color: #57d272;
+}
+
+.otherauctions__cards--tablet{
+    display: none;
+}

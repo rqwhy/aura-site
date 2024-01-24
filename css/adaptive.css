@@ -1,0 +1,145 @@
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width: 952px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    }
+
+    .hero{
+        background-position: 700px center;
+    }
+
+    .auction__cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .auction__card-timer{
+        width: 460px;
+    } */
+
+    .otherauctions__cards{
+        display: none;
+    }
+
+    .otherauctions__cards--tablet{
+        display: flex;
+    }
+
+    .register__container{
+        background-image: url(../img/register-bg-0.5x.png);
+    }
+
+    .aftor__container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aftor__content{
+        background-image: none;
+        padding-bottom: 0;
+    }
+
+    .aftor__quote{
+        max-width: 788px;
+    }
+
+    .aftor__text-block{
+        width: 788px;
+    }
+
+    .aftor__descr{
+        width: 788px;
+    }
+
+    .authorform{
+        background-image: url(../img/aftor-bg_vert.png);
+        background-repeat: no-repeat;
+        padding-left: 328px;
+    }
+
+    .topsales-card{
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container{
+        max-width: 360px;
+    }
+
+    .header__info{
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .header__btn-wallet{
+        display: flex;
+    }
+
+    .header__button{
+        display: none;
+    }
+    
+    .header__adaptive-block{
+        display: flex;
+        justify-content: space-between;
+
+        padding-right: 30px;
+
+        align-items: center;
+
+        border-bottom: 1px solid #c4c4c4;
+
+        padding-bottom: 20px;
+    }
+
+    .hero{
+        background-image: url(../img/hero-bg_mobile.png);
+        background-repeat: no-repeat;
+        background-position: center calc(100% + 15px);
+        background-size: 100%;
+    }
+
+    .hero__container{
+        padding: 64px 0 210px;
+    }
+    
+    .hero__title{
+        font-size: 35px;
+
+        margin-bottom: 16px;
+    }
+
+    .hero__buttons{
+        margin: 0;
+        flex-direction: column;
+
+        gap: 16px;
+    }
+
+    .hero-buttons__pay{
+       padding: 15px 38px;
+       max-width: 132px;
+
+       font-size: 16px;
+    }
+
+    .hero-buttons__aftor{
+        padding: 15px 20px; 
+        max-width: 170px;
+
+        font-size: 16px;
+    }
+
+    .auction__container{
+        flex-direction: column;
+    }
+
+    .auction__title{
+        font-size: 30px;
+    }
+}
