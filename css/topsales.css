@@ -85,3 +85,7 @@
 .topsales-card__price--converted{
     color:#95959d;
 }
+
+.topsales__cards--tablet{
+    display: none;
+}

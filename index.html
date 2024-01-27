@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Aura</title>
 </head>
-<body>
+<body class="body">
     <header class="header">
         <div class="header__container container">
             <div class="header__info">
@@ -102,7 +102,7 @@
     <section class="otherauctions">
         <div class="otherauctions__container container">
             <h2 class="otherauctions__title">Другие аукционы</h2>
-            <div class="otherauctions__cards">
+            <div class="otherauctions__cards otherauctions__cards   ">
                 <div class="otherauctions-card">
                     <img src="img/Alien.png" alt="stiker" class="otherauctions-card__image" width="160px" height="160px">
                     <div class="otherauctions-card__content">
@@ -273,6 +273,14 @@
                         <p class="otherauctions-card__timer">18&nbsp;мин 12&nbsp;сек</p>
                     </div>
                 </div>
+                <div class="swiper otherauctions__slider">
+                    <div class="swiper-wrapper otherauctions__slide">
+                      <div class="swiper-slide">Slide 1</div>
+                      <div class="swiper-slide">Slide 2</div>
+                      <div class="swiper-slide">Slide 3</div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
             </div>
             <button class="otherauctions__btn">Все аукционы</button>
         </div>
@@ -280,7 +288,7 @@
     <section class="new">
         <div class="new__container container">
             <h2 class="new__title">Новые стикеры</h2>
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper new__slider">
                 <div class="swiper-wrapper new__slider">
                   <div class="swiper-slide new__slide">
                     <img class="slider__image" src="img/slider-1.png" alt="sticker img">
@@ -295,9 +303,9 @@
                     <img class="slider__image" src="img/slider-4.png" alt="sticker img">
                   </div>
                 </div>
-            </div>
-            <div class="new__pagination">
+                <div class="new__pagination">
                     <div class="swiper-pagination">  </div>
+                </div>
             </div>
         </div>
     </section>
@@ -409,6 +417,74 @@
                     </div>
                 </div>
             </div>
+            <div class="topsales__cards topsales__cards--tablet">
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-adapt-card1.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsaler-userafa-1.png" alt="afatar by user">
+                            <span class="topsales-card__user-name">ttgs</span>
+                        </div>
+                        <span class="topsales-card__name">Holofobia1</span>
+                        <span class="topsales-card__price">4.70&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($16,873.47)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-adapt-card2.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-2.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Tat_2</span>
+                        </div>
+                        <span class="topsales-card__name">Y.EEE</span>
+                        <span class="topsales-card__price">2.00&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($7,121.04)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-adapt-card3.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-3.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Chris22</span>
+                        </div>
+                        <span class="topsales-card__name">Baby Joda</span>
+                        <span class="topsales-card__price">3.00&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($10,731.24)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-adapt-card4.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-4.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Oswaald</span>
+                        </div>
+                        <span class="topsales-card__name">Infinity_09</span>
+                        <span class="topsales-card__price">1.6109&nbsp;ETH  <span class="topsales-card__price topsales-card__price--converted">($5,762.32)</span></span>
+                    </div>
+                </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/img/topsales-adapt-card5.png.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-5.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">Paul-22</span>
+                        </div>
+                        <span class="topsales-card__name">Sadsadsad</span>
+                        <span class="topsales-card__price">1.50&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($5,365.62)</span></span>
+                    </div>
+                 </div>
+                <div class="topsales-card">
+                    <img class="topsales-card__stick-image" src="img/topsales-adapt-card6.png" alt="sticker image">
+                    <div class="topsaler-card__content">
+                        <div class="topsales-card__top">
+                            <img class="topsaler-card__afatar" src="img/topsales-user-afa-6.svg" alt="afatar by user">
+                            <span class="topsales-card__user-name">wardxxx</span>
+                        </div>
+                        <span class="topsales-card__name">Attntn</span>
+                        <span class="topsales-card__price">1.0&nbsp;ETH <span class="topsales-card__price topsales-card__price--converted"> ($3,577.08)</span></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="conditions">
@@ -440,12 +516,24 @@
         </div>
         <span class="footer__descr">AURA<sup class="reg">&reg;</sup>&nbsp;| 2024</span> 
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
+    var swiper = new Swiper(".new__slider", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+      },
+    });
+  </script>
+
+
+  <script>
+    var swiper = new Swiper(".otherauctions__slider", {
       pagination: {
         el: ".swiper-pagination",
         clickable: true,

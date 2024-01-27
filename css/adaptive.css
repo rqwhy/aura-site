@@ -62,6 +62,10 @@
     .topsales-card{
         max-width: 450px;
     }
+
+    .topsales__cards--tablet{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 425px){
@@ -83,14 +87,25 @@
     .header__button{
         display: none;
     }
+
+    .header__info{
+        width: 100%;
+    }
+
+    .header__list{
+        display: flex; 
+        justify-content: space-between;
+
+        gap: 0;
+    }
     
     .header__adaptive-block{
         display: flex;
         justify-content: space-between;
 
-        padding-right: 30px;
-
         align-items: center;
+
+        padding: 0 12px 0 12px;
 
         border-bottom: 1px solid #c4c4c4;
 
@@ -141,5 +156,195 @@
 
     .auction__title{
         font-size: 30px;
+    }
+
+    .auction__image{
+        width: 296px;
+        height: 296px;
+    }
+
+    .auction__user-card{
+        margin: 0;
+    }
+
+    .auction__user-card{
+        max-width: 170px;
+
+        margin-bottom: 16px;
+
+        border-radius: 18px;
+    }
+
+    .auction-user-card__afatar{
+        width: 24px;
+        height: 24px;
+    }
+
+    .auction-user-card__username{
+        font-size: 16px;
+    }
+
+    .auction__descr{
+        font-size: 30px;
+    }
+
+    .auction__card{
+        max-width: 174px;
+    }
+
+    .auction__card-timer{
+        background-image: none;
+
+        padding: 16px 18px;
+        border-radius: 18px;
+
+        max-width: 220px;
+    }
+
+    .auction-card-timer__descr{
+        font-size: 16px;
+        max-width: 138px;
+    }
+
+    .otherauctions__cards--tablet{
+        display: none;
+    }
+
+    .swiper-container{
+        display: flex;
+    }
+
+    .new__title{
+        font-size: 30px;
+        padding-left: 32px;
+
+        background-image: url(../img/image\ 1367\ \(1\).png);
+    }
+
+    .register__container{
+        padding: 32px 0 290px;
+
+        background-image: url(../img/register-bg-0.5x.png);
+        background-repeat: no-repeat;
+        background-position: center 400px;
+    }
+
+    .aftor__title{
+        font-size: 30px;
+    }
+
+    .aftor__text-block{
+        max-width: 296px;
+    }
+
+    .aftor__quote{
+        display: none;
+    }
+
+    .aftor-descr{
+        font-size: 16px;
+
+    }
+
+    .aftor-descr__wish{
+        font-size: 16px;
+    }
+
+    .aftor__content--with-bg{
+        min-width: 0;
+    }
+
+    .authorform{
+        background-image: url(../img/Frame\ 31\ \(1\).png);
+        background-repeat: no-repeat;
+        padding: 200px 0 0;
+        width: 296px;
+    }
+
+    .inputwrapper{
+        max-width: 296px;
+    }
+
+    .inputfile-button-text{
+        font-size: 16px;
+    }
+
+    .aftor__input{
+        max-width: 226px;
+
+        font-size: 16px;
+    }
+    
+    .aftor__btn{
+        max-width: 200px;
+    }
+
+    .topsales__container{
+        padding-top: 32px;
+    }
+
+    .topsales__title{
+        font-size: 30px;
+    }
+
+    .topsales__cards{
+        display: none;
+    }
+
+    .topsales__cards--tablet{
+        display: flex;
+        gap: 32px;
+        row-gap: 16px;
+    }
+
+    .topsales-card{
+        display: flex;
+        flex-direction: column;
+
+        max-width: 132px; 
+
+        border-radius: 18px;
+    }
+
+    .topsaler-card__content{
+        padding: 16px 0 16px 16px;
+    }
+
+    .topsales-card__stick-image{
+        height: 108px;
+        width: 132px ;
+    }
+
+    .topsales-card__name{
+        font-size: 20px;
+    }
+
+    .topsales-card__price{
+        font-size: 12px;
+    }
+
+    .conditions__container{
+        padding-bottom: 130px;
+        margin-bottom: 30px;
+
+        background-position: bottom center;
+        background-size: 95%;
+    }
+
+
+    .footer__content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer__list{
+        padding-top: 20px;
+
+        border-top: 2px solid var(--dark-color)
+    }
+
+    .body{
+        overflow-x: hidden;
     }
 }

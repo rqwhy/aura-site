@@ -11,7 +11,7 @@
 
 .new__container{
     margin-top: 90px;
-    padding: 90px 0 190px;
+    padding: 90px 0;
 }
 
 .new__title{
@@ -40,9 +40,12 @@
     width: inherit;
 }
 
+.new__slider{
+    padding-bottom: 100px;
+}
+
 .new__pagination{
     position: relative;
-    top: 90px;
 }
 
 .new__pagination .swiper-pagination-bullet{

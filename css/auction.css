@@ -12,6 +12,13 @@
     gap: 32px;
 }
 
+.auction__top{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 31px;
+}
+
 .auction__title{
     color: var(--dark-color);
 
@@ -23,10 +30,11 @@
     line-height: normal;
 
     max-width: 418px;
+}
 
-    background-image: url(/img/auction-title-bg.png);
-    background-repeat: no-repeat;
-    background-position: center right;
+.auction__live-text{
+    max-height: 36px;
+    max-width: 135px;
 }
 
 .auction__user-card{
